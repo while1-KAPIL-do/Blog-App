@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadVideoActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/tv_acc_address"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:layout_marginStart="8dp"
+        android:text="Description"
+        app:layout_constraintBottom_toTopOf="@+id/et_acc_address"
+        app:layout_constraintStart_toStartOf="@+id/et_acc_address"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv_acc_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="casual"
+        android:text="Title"
+
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/et_acc_mobile"
+        app:layout_constraintStart_toStartOf="@+id/et_acc_mobile"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_acc_name"
+        android:layout_width="271dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+
+        android:hint="Pest Link here..."
+
+        android:inputType="text"
+        android:paddingStart="40sp"
+        android:paddingTop="10sp"
+        android:paddingEnd="10sp"
+        android:paddingBottom="7sp"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_acc_mobile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,RtlCompat" />
+
+    <EditText
+        android:id="@+id/et_acc_mobile"
+        android:layout_width="271dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="Enter title..."
+
+        android:inputType="text"
+        android:paddingStart="40sp"
+        android:paddingTop="10sp"
+        android:paddingEnd="10sp"
+        android:paddingBottom="7sp"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_acc_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,RtlCompat" />
+
+    <EditText
+        android:id="@+id/et_acc_address"
+        android:layout_width="271dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="72dp"
+        android:ems="10"
+        android:hint="Enter description..."
+
+        android:inputType="text"
+        android:paddingStart="40sp"
+        android:paddingTop="10sp"
+        android:paddingEnd="10sp"
+        android:paddingBottom="7sp"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_acc_update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="Autofill,HardcodedText,MissingConstraints,RtlCompat" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="casual"
+        android:text="Upload Video"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_acc_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv_acc_name"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="casual"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Youtube video link"
+        app:layout_constraintBottom_toTopOf="@+id/et_acc_name"
+        app:layout_constraintStart_toStartOf="@+id/et_acc_name"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_acc_update"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="75dp"
+        android:text="Upload"
+        android:textSize="16sp"
+        android:onClick="do_btn_upload"
+        android:fontFamily="casual"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/rounded_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+</android.support.constraint.ConstraintLayout>

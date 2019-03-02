@@ -1,0 +1,62 @@
+<resources>
+
+
+    <!--   Shared Preference  -->
+    <string name="shared_pref">Mypref</string>
+    <string name="sp_email">email</string>
+    <string name="sp_name">name</string>
+    <string name="sp_mobile">mobile</string>
+    <string name="sp_address">address</string>
+    <string name="sp_profile_desc">profile_desc</string>
+
+
+
+    <!-- YouTube API key    -->
+    <string name="api_youtube">AIzaSyBfBLslee5KbU5o0w6nm_waMzA8q6evAx4</string>
+    <!--    Image url : when No image is there    -->
+    <string name="no_img_url">http://www.mikebiotech.com/wp-content/uploads/2016/11/noimage.jpg</string>
+
+
+
+    <!-- API's     -->
+    <string name="api_alldata">http://apptechinteractive.com/blog/index.php/app/alldata</string>
+    <string name="api_register">http://apptechinteractive.com/blog/index.php/app/register</string>
+    <string name="api_login">http://apptechinteractive.com/blog/index.php/app/login</string>
+    <string name="api_save_vedio">http://apptechinteractive.com/blog/index.php/app/save_vedio</string>
+    <string name="api_user_show">http://apptechinteractive.com/blog/index.php/app/user_show</string>
+    <string name="api_profile_update">http://apptechinteractive.com/blog/index.php/app/profile_update</string>
+
+
+    <!--   API values USER   -->
+
+    <string name="api_user_show_user">user</string>
+
+    <string name="user_email">email</string>
+    <string name="user_password">password</string>
+    <string name="user_name">name</string>
+    <string name="user_mobile">mobile</string>
+    <string name="user_address">address</string>
+    <string name="user_profile_desc">des</string>
+
+
+    <!--   API values All DATA  -->
+    <string name="image_url_prefix">http://apptechinteractive.com/blog</string>
+
+    <string name="api_res_obj1">data</string>
+    <string name="api_res_obj1_array_title">title</string>
+    <string name="api_res_obj1_array_des">des</string>
+    <string name="api_res_obj1_array_imag_url">img_url</string>
+    <string name="api_res_obj1_array_url">url</string>
+    <string name="api_res_obj1_array_type">type</string>
+    <string name="api_res_obj1_array_cat">cat</string>
+
+
+    <string name="api_res_error">error</string>
+    <string name="api_res_message">message</string>
+
+    <!--    in SignUpActivity.java  ( For Registration User ID )  comparing output string    -->
+    <!--    1. inserted                   "Register Sucessfull "                             -->
+    <!--    2. already exist              "Already Exist"                                    -->
+
+
+</resources>

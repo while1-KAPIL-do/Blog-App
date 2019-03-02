@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AppTech2</string>
+
+
+    <!--    Notification Text   -->
+    <string name="scheduled_notification_title">New Post </string>
+    <string name="scheduled_notification_text">Click here to check</string>
+    <string name="scheduled_notification_info">AppTech2</string>
+
+
+    <!--    Interstitial ad id  -->
+    <string name="interstitial_ad_1">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--    FB native ad id     -->
+    <string name="fb_native_ad_1">YOUR_PLACEMENT_ID</string>
+
+
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+</resources>

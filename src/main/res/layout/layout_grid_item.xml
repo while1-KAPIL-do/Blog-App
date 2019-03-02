@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+    android:background="@color/colorPrimary"
+        android:layout_margin="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="10dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_widge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:scaleType="matrix"
+                app:layout_constraintBottom_toTopOf="@+id/name_widge"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/name_widge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Title"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/type_widge"
+                app:layout_constraintStart_toStartOf="@+id/image_widge"
+                app:layout_constraintTop_toBottomOf="@+id/image_widge"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/type_widge"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:layout_constraintBottom_toBottomOf="@+id/name_widge"
+                app:layout_constraintEnd_toEndOf="@+id/image_widge"
+                app:layout_constraintStart_toEndOf="@+id/name_widge"
+                app:layout_constraintTop_toTopOf="@+id/name_widge"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@android:drawable/stat_notify_error"
+                tools:ignore="ContentDescription" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
